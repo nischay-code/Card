@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Roboto:wght@100&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff0f0;
+}
+
+.card {
+    width: 350px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-content {
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+    color: #333;
+}
+
+p {
+    margin-top: 10px;
+    color: #666;
+}
